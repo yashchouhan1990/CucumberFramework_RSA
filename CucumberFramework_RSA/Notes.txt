@@ -1,0 +1,5 @@
+Command to run Cucumber file from cmd-
+
+mvn test -Dcucumber.filter.tags="PlaceOrder"
+OR
+mvn test -Dcucumber.features="/Users/yashchouhan/eclipse-workspace/CucumberFramework_RSA/src/test/java/features/checkout.feature" -Dbrowser="firfox"
